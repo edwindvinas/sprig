@@ -29,7 +29,8 @@ func sha256sum(input string) string {
 
 // uuidv4 provides a safe and secure UUID v4 implementation
 func uuidv4() string {
-	return fmt.Sprintf("%s", uuid.NewV4())
+	u, _ := uuid.NewV4()
+	return fmt.Sprintf("%s", u.String())
 }
 
 var master_password_seed = "com.lyndir.masterpassword"
