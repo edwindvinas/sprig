@@ -17,8 +17,7 @@ import (
 	"fmt"
 	"math/big"
 
-	//uuid "github.com/satori/go.uuid"
-	uuid "github.com/edwindvinas/go.uuid"
+	uuid "github.com/satori/go.uuid"
 	"golang.org/x/crypto/scrypt"
 )
 
